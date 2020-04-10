@@ -1,21 +1,27 @@
-import React from "react"
-import { Link } from "gatsby"
+import React from 'react';
+import '../styles/pages/index.css';
 
-import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import Layout from '../components/Layout';
+import SEO from '../components/SEO';
+import Contact from "../components/Contact";
 
-const IndexPage = () => (
+
+const Index = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <SEO title='Jacob Packert' />
+    <h1>Hi! I'm Jacob.</h1>
+    <section className='intro'>
+      <p>I like the Internet, tech, music and code.</p>
+      <p>
+        I live in lovely <a href='https://medium.com/@jacobpackert/why-bicycling-in-copenhagen-is-so-fantastic-ac5e56349df7' target="_blank" rel="noopener noreferrer">Copenhagen</a>.
+      </p>
+      <p>
+        I work as a Frontend Engineer and Senior Technical Advisor at <a href='https://hellogreatworks.com/' target="_blank" rel="noopener noreferrer">Hello Great Works</a>.
+      </p>
+    </section>
+    <Contact />
+    
   </Layout>
-)
+);
 
-export default IndexPage
+export default Index;
