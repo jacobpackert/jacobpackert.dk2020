@@ -1,0 +1,8 @@
+:root {
+    --deathly-green-teal: #0CB577;
+    --moraceous-dark-teal: #014D4E;
+    --multiscreen-dark-forest-green: #002D04;
+    /* borrowed from https://colors.lol/deathly */
+    --light-gray: #eeeeee;
+    --primary-black: hsla(0, 0%, 8%, 0.8);
+}
