@@ -9,7 +9,7 @@ import Contact from "../components/Contact";
 const Index = () => (
   <Layout>
     <SEO title='Jacob Packert' />
-    <h1>Hi! I'm Jacob.</h1>
+    <h1>Hi! I'm Jacob 👋</h1>
     <section className='intro'>
       <p>I like the Internet, tech, music and code.</p>
       <p>

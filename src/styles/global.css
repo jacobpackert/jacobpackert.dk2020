@@ -45,12 +45,14 @@ html {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     text-decoration: none;
-    color: var(--deathly-green-teal)
+    color: var(--deathly-green-teal);
+    transition: color 300ms;
   }
   a:active,
   a:hover {
     outline-width: 0;
-    color: var(--moraceous-dark-teal)
+    color: var(--moraceous-dark-teal);
+    transition: color 300ms;
   }
   abbr[title] {
     border-bottom: none;
