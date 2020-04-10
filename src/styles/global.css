@@ -1,3 +1,5 @@
+@import "./_constants.css";
+
 html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -42,10 +44,13 @@ html {
   a {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
+    text-decoration: none;
+    color: var(--deathly-green-teal)
   }
   a:active,
   a:hover {
     outline-width: 0;
+    color: var(--moraceous-dark-teal)
   }
   abbr[title] {
     border-bottom: none;
@@ -186,7 +191,7 @@ html {
   }
   html {
     font-size: 20px;
-    line-height: 1.2rem;
+    line-height: 1.4rem;
     box-sizing: border-box;
     overflow-y: scroll;
   }
@@ -200,7 +205,8 @@ html {
     box-sizing: inherit;
   }
   body {
-    color: hsla(0, 0%, 0%, 0.8);
+    color: ;
+    background-color: var(--light-gray);
     font-family: Inter, sans-serif;
     font-weight: 500;
     word-wrap: break-word;
@@ -235,8 +241,8 @@ html {
       Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
     font-weight: 800;
     text-rendering: optimizeLegibility;
-    font-size: 2.25rem;
-    line-height: 1.1;
+    font-size: 2.8rem;
+    line-height: 2.8rem;
   }
   h2 {
     margin-left: 0;
@@ -386,7 +392,7 @@ html {
     padding-left: 0;
     padding-right: 0;
     padding-top: 0;
-    margin-bottom: 0.45rem;
+    margin-bottom: 0.6rem;
   }
   figure {
     margin-left: 0;
@@ -620,5 +626,7 @@ html {
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
+      max-width: 95%;
+      margin: 0 auto;
     }
   }

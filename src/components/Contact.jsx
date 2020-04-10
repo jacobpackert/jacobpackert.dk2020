@@ -13,21 +13,21 @@ export default function Contact() {
       <div className='contact__items'>
         <ContactItem large>Phone: (+45) 28 14 72 96</ContactItem>
         <ContactItem large>
-          Email: <a href='mailto:jacobpackert@gmail.com'> jacobpackert@gmail.com</a>
+          Email: <a href='mailto:jacobpackert@gmail.com' > jacobpackert@gmail.com</a>
         </ContactItem>
       </div>
       <div className='contact__items'>
         <ContactItem>
-          <a href='https://medium.com/@jacobpackert'>Twitter</a>
+          <a href='https://medium.com/@jacobpackert' target="_blank" rel="noopener noreferrer">Twitter</a>
         </ContactItem>
         <ContactItem>
-          <a href='http://www.linkedin.com/in/jacobpackert'>Linkedin</a>
+          <a href='http://www.linkedin.com/in/jacobpackert' target="_blank" rel="noopener noreferrer">Linkedin</a>
         </ContactItem>
         <ContactItem>
-          <a href='https://github.com/jacobpackert'>Github</a>
+          <a href='https://github.com/jacobpackert' target="_blank" rel="noopener noreferrer">Github</a>
         </ContactItem>
         <ContactItem>
-          <a href='https://medium.com/@jacobpackert'>Blog</a>
+          <a href='https://medium.com/@jacobpackert' target="_blank" rel="noopener noreferrer">Blog</a>
         </ContactItem>
       </div>
     </section>
