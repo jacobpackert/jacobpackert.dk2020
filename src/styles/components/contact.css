@@ -1,0 +1,19 @@
+.contact {
+
+}
+
+.contact__items {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+}
+
+.contact__item {
+    font-size: 1.1rem;
+}
+
+.contact__item--large {
+    font-size: 1.rem;
+}
