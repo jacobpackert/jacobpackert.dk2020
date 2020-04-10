@@ -190,8 +190,8 @@ html {
     font: inherit;
   }
   html {
-    font-size: 20px;
-    line-height: 1.4rem;
+    font-size: 22px;
+    line-height: 1.5rem;
     box-sizing: border-box;
     overflow-y: scroll;
   }
@@ -205,7 +205,7 @@ html {
     box-sizing: inherit;
   }
   body {
-    color: ;
+    color: var(--primary-black);
     background-color: var(--light-gray);
     font-family: Inter, sans-serif;
     font-weight: 500;
@@ -215,6 +215,9 @@ html {
     -ms-font-feature-settings: "kern", "liga", "clig", "calt";
     -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
     font-feature-settings: "kern", "liga", "clig", "calt";
+  }
+  main {
+    margin: 0 auto;
   }
   img {
     max-width: 100%;
@@ -384,7 +387,7 @@ html {
     margin-bottom: 1.45rem;
   }
   p {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-left: 0;
     margin-right: 0;
     margin-top: 0;
