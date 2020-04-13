@@ -1,8 +1,12 @@
 :root {
-    --deathly-green-teal: #0CB577;
-    --moraceous-dark-teal: #014D4E;
-    --multiscreen-dark-forest-green: #002D04;
-    /* borrowed from https://colors.lol/deathly */
-    --light-gray: #eeeeee;
-    --primary-black: hsla(0, 0%, 8%, 0.8);
+  --classic-blue: #0f4c81;
+  --classic-blue-dark: #092f50;
+  --classic-blue-bright: #1368b3;
+  --baby-blue: #b5c7d3;
+  --cornhusk: #f3d5ad;
+  --peach-quartz: #f5b895;
+  --stucco: #a58d7f;
+  --light-gray: #eeeeee;
+  --bright-white: #f5f5f5;
+  --primary-black: hsla(0, 0%, 8%, 0.8);
 }

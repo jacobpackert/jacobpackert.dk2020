@@ -45,13 +45,13 @@ html {
     background-color: transparent;
     -webkit-text-decoration-skip: objects;
     text-decoration: none;
-    color: var(--deathly-green-teal);
+    color: var(--classic-blue);
     transition: color 300ms;
   }
   a:active,
   a:hover {
     outline-width: 0;
-    color: var(--moraceous-dark-teal);
+    color: var(--classic-blue-bright);
     transition: color 300ms;
   }
   abbr[title] {
@@ -204,7 +204,7 @@ html {
   }
   body {
     color: var(--primary-black);
-    background-color: var(--light-gray);
+    background-color: var(--cornhusk);
     font-family: Inter, sans-serif;
     font-weight: 500;
     word-wrap: break-word;
