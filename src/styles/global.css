@@ -204,7 +204,9 @@ html {
   }
   body {
     color: var(--primary-black);
-    background-color: var(--cornhusk);
+    /* background-color: var(--cornhusk); */
+    background: rgb(165,141,127);
+    background: linear-gradient(0deg, var(--peach-quartz-dark) 0%, var(--peach-quartz) 15%, var(--cornhusk) 100%);
     font-family: Inter, sans-serif;
     font-weight: 500;
     word-wrap: break-word;
