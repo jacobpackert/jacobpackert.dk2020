@@ -192,6 +192,7 @@ html {
     line-height: 1.5rem;
     box-sizing: border-box;
     overflow-y: scroll;
+    height: 100%;
   }
   * {
     box-sizing: inherit;
@@ -203,10 +204,12 @@ html {
     box-sizing: inherit;
   }
   body {
+    /* height: 100%; */
     color: var(--primary-black);
-    /* background-color: var(--cornhusk); */
-    background: rgb(165,141,127);
-    background: linear-gradient(0deg, var(--peach-quartz-dark) 0%, var(--peach-quartz) 15%, var(--cornhusk) 100%);
+    background: --var(--peach-quartz-dark);
+    background: linear-gradient(180deg, var(--cornhusk) 40%, var(--peach-quartz) 80%, var(--peach-quartz-dark) 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     font-family: Inter, sans-serif;
     font-weight: 500;
     word-wrap: break-word;
