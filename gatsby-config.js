@@ -6,6 +6,7 @@ module.exports = {
       name: `Jacob Packert`,
       summary: `I write about the Internet, tech, code and design.\nFrontend Engineer & Senior Technical Advisor at Hello Great Works`
     },
+    siteUrl: `https://jacobpackert.netlify.app/`,
     social: {
       twitter: `jacobpackert`,
       github: `jacobpackert`
