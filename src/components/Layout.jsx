@@ -1,6 +1,12 @@
 import React from "react"
 
-const Layout = ({ children }) => {
+const Layout = ({ location, title, children }) => {
+  const rootPath = `${__PATH_PREFIX__}/`
+  console.log("rootPath:", rootPath);
+  console.log(location && location.pathname)
+  console.log(location)
+
+
   
   return (
     <>
