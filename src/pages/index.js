@@ -5,8 +5,8 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Contact from '../components/Contact';
 
-const Index = () => (
-  <Layout>
+const Index = ({location}) => (
+  <Layout location={location}>
     <SEO title='Jacob Packert' />
     <h1>Hi! I'm Jacob 👋</h1>
     <section className='intro'>

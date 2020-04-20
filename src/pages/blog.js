@@ -6,6 +6,12 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { rhythm } from "../utils/typography"
 
+
+/** the list of all the blogposts 
+ * filename is not more descriptive as filename 
+ * is the same as the actual pathname in the URL
+ * due to Gatsby's way of importing files from `/pages`
+*/
 const BlogIndex = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata.title
   const posts = data.allMarkdownRemark.edges
