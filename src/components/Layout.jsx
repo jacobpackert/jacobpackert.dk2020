@@ -8,7 +8,7 @@ const Layout = ({ location, title, children }) => {
   console.log(location);
   let header
 
-  if (location.pathname.includes('blog')) {
+  if (location?.pathname.includes('blog')) {
     header = (
       <h3
         style={{
