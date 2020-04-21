@@ -1,12 +1,8 @@
-import React from 'react';
+import React, {useRef} from 'react';
 import { Link } from 'gatsby';
-import {Colors, Gradients} from '../constants/Colors';
+import { Colors, Gradients } from '../constants/Colors';
 
 const Layout = ({ location, title, children }) => {
-  const rootPath = `${__PATH_PREFIX__}/`;
-  console.log('rootPath:', rootPath);
-  console.log(location && location.pathname);
-  console.log(location);
   let header;
 
   const isBlogSection = location?.pathname.includes('blog');
@@ -32,12 +28,22 @@ const Layout = ({ location, title, children }) => {
     );
   }
 
+
   return (
     <div
       style={{
         background: isBlogSection ? Colors.BRIGHT_WHITE : Gradients.BACKGROUND_GRADIENT,
+        display: "flex",
+        minHeight: "100vh"
       }}
     >
+      <div
+        style={{
+          background: Gradients.BACKGROUND_GRADIENT,
+          width: "12px",
+          minWidth: '8px',
+        }}
+      ></div>
       <div
         style={{
           margin: `0 auto`,
