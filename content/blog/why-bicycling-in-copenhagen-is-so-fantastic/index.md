@@ -1,5 +1,5 @@
 ---
-title: Why bibycling in Copenhagen is so fantastic
+title: Why bicycling in Copenhagen is so fantastic
 date: "2013-09-04"
 description: "On the virtues of Copenhagen’s favorite mode of transportation"
 ---

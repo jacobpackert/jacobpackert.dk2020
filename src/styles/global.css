@@ -206,10 +206,7 @@ html {
   body {
     /* height: 100%; */
     color: var(--primary-black);
-    background: --var(--peach-quartz-dark);
-    background: linear-gradient(180deg, var(--cornhusk) 40%, var(--peach-quartz) 80%, var(--peach-quartz-dark) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background: var(--peach-quartz-dark);
     font-family: Inter, sans-serif;
     font-weight: 500;
     word-wrap: break-word;
@@ -632,7 +629,5 @@ html {
   @media only screen and (max-width: 480px) {
     html {
       font-size: 100%;
-      max-width: 95%;
-      margin: 0 auto;
     }
   }

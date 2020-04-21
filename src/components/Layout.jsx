@@ -1,14 +1,17 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import {Colors, Gradients} from '../constants/Colors';
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`;
   console.log('rootPath:', rootPath);
   console.log(location && location.pathname);
   console.log(location);
-  let header
+  let header;
 
-  if (location?.pathname.includes('blog')) {
+  const isBlogSection = location?.pathname.includes('blog');
+
+  if (isBlogSection) {
     header = (
       <h3
         style={{
@@ -30,13 +33,16 @@ const Layout = ({ location, title, children }) => {
   }
 
   return (
-    <>
+    <div
+      style={{
+        background: isBlogSection ? Colors.BRIGHT_WHITE : Gradients.BACKGROUND_GRADIENT,
+      }}
+    >
       <div
         style={{
           margin: `0 auto`,
-          marginTop: 50,
           maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
+          padding: `50px 1.0875rem 1.45rem`,
         }}
       >
         <header>{header}</header>
@@ -54,7 +60,7 @@ const Layout = ({ location, title, children }) => {
           </a>
         </footer>
       </div>
-    </>
+    </div>
   );
 };
 

@@ -6,7 +6,6 @@ import Layout from "../components/Layout"
 import SEO from "../components/SEO"
 import { rhythm } from "../utils/typography"
 
-
 /** the list of all the blogposts 
  * filename is not more descriptive as filename 
  * is the same as the actual pathname in the URL
