@@ -39,17 +39,17 @@ const Layout = ({ location, title, children }) => {
       <div
         style={{
           background: Gradients.BACKGROUND_GRADIENT,
-          width: '7px',
-          minWidth: '7px',
+          width: '8px',
+          minWidth: '8px',
         }}
       ></div>
-      <div style={{ width: "100%" }}>
         <div
           style={{
             margin: `0 auto`,
-            marginLeft: "-7px",
             maxWidth: 960,
             padding: `50px 1.0875rem 1.45rem`,
+            position: "relative",
+            left: "-4px"
           }}
         >
           <header>{header}</header>
@@ -68,7 +68,6 @@ const Layout = ({ location, title, children }) => {
           </footer>
         </div>
       </div>
-    </div>
   );
 };
 
