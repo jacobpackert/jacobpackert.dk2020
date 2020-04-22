@@ -1,4 +1,4 @@
-import React, {useRef} from 'react';
+import React, { useRef } from 'react';
 import { Link } from 'gatsby';
 import { Colors, Gradients } from '../constants/Colors';
 
@@ -28,43 +28,45 @@ const Layout = ({ location, title, children }) => {
     );
   }
 
-
   return (
     <div
       style={{
         background: isBlogSection ? Colors.BRIGHT_WHITE : Gradients.BACKGROUND_GRADIENT,
-        display: "flex",
-        minHeight: "100vh"
+        display: 'flex',
+        minHeight: '100vh',
       }}
     >
       <div
         style={{
           background: Gradients.BACKGROUND_GRADIENT,
-          width: "12px",
-          minWidth: '8px',
+          width: '7px',
+          minWidth: '7px',
         }}
       ></div>
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `50px 1.0875rem 1.45rem`,
-        }}
-      >
-        <header>{header}</header>
-        <main>{children}</main>
-        <footer
+      <div style={{ width: "100%" }}>
+        <div
           style={{
-            fontSize: 16,
-            color: `#555555`,
+            margin: `0 auto`,
+            marginLeft: "-7px",
+            maxWidth: 960,
+            padding: `50px 1.0875rem 1.45rem`,
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener noreferrer'>
-            Gatsby
-          </a>
-        </footer>
+          <header>{header}</header>
+          <main>{children}</main>
+          <footer
+            style={{
+              fontSize: 16,
+              color: `#555555`,
+            }}
+          >
+            © {new Date().getFullYear()}, Built with
+            {` `}
+            <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener noreferrer'>
+              Gatsby
+            </a>
+          </footer>
+        </div>
       </div>
     </div>
   );
