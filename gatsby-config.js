@@ -4,7 +4,8 @@ module.exports = {
     description: `My personal website, contact info and blog.`,
     author: {
       name: `Jacob Packert`,
-      summary: `I write about the Internet, tech, code and design.\nFrontend Engineer & Senior Technical Advisor at Hello Great Works`
+      summary: `I write about the Internet, tech, code and design.`,
+      title: `Frontend Engineer & Senior Technical Advisor at Hello Great Works`
     },
     siteUrl: `https://jacobpackert.netlify.app/`,
     social: {

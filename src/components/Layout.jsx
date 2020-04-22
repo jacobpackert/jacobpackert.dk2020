@@ -64,7 +64,10 @@ const Layout = ({ location, title, children }) => {
             {` `}
             <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener noreferrer'>
               Gatsby
-            </a>
+            </a>,
+            {` `}
+            <a href="https:www.netlify.com" target="_blank" rel='noopener noreferrer'>Netlify</a> {` `}
+            and 🧡 in lovely Copenhagen.
           </footer>
         </div>
       </div>

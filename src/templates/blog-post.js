@@ -49,7 +49,7 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           }}
         />
         <footer>
-          <Bio />
+          <Bio short />
         </footer>
       </article>
 

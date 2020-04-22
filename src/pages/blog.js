@@ -17,16 +17,7 @@ const BlogIndex = ({ data, location }) => {
 
   return (
     <div>
-      {/* <div
-        style={{
-          background: 'red',
-          width: '10px',
-          position: 'absolute',
-          top: 0,
-          bottom: 0,
-          overflow: "hidden"
-        }}
-      ></div> */}
+
       <Layout location={location} title={siteTitle}>
         <SEO title='All posts' />
 
