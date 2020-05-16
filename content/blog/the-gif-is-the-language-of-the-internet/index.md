@@ -1,7 +1,7 @@
 ---
-title: Protect the GIF. It is the language of the internet
+title: Protect the GIF - it is the language of the internet
 date: "2020-05-16"
-description: "something something"
+description: "We need a decentralised, open source Giphy with support for global content."
 ---
 
 We use GIFs everywhere these days. From being an obscure part of meme culture, they are now a part of every main communication channel. 
