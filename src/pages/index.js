@@ -22,15 +22,15 @@ const Index = ({location}) => (
         .
       </p>
       <p style={textStyle}>
-        I work as a Frontend Engineer and Senior Technical Advisor at{' '}
-        <a href='https://hellogreatworks.com/' target='_blank' rel='noopener noreferrer'>
-          Hello Great Works
+        I work as a Frontend Engineer at{' '}
+        <a href='https://dr.dk' target='_blank' rel='noopener noreferrer'>
+          DR, the Danish Broadcasting Corporation
         </a>
         .
       </p>
       <p style={textStyle}>I used to work with politics, then I worked with marketing. Some would say that’s the same thing.</p>
 
-      <p style={textStyle}>Now I write code for a living and build products and websites. For clients and for fun.</p>
+      <p style={textStyle}>Now I write code for a living and build products and websites. For work and for fun.</p>
       <p style={textStyle}>
         I love Javascript and React ⚛️ and I’m building a few apps with React Native and Expo 📱 For data science and Raspberry Pi fun I'm
         learning Python 🐍.
