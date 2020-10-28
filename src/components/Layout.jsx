@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { Link } from 'gatsby';
 import { Colors, Gradients } from '../constants/Colors';
 
-const Layout = ({ location, title, children }) => {
+const Layout = ({ location, title, children, hidefooter }) => {
   let header;
 
   const isBlogSection = location?.pathname.includes('blog');
@@ -54,7 +54,7 @@ const Layout = ({ location, title, children }) => {
         >
           <header>{header}</header>
           <main>{children}</main>
-          <footer
+          {!hidefooter && <footer
             style={{
               fontSize: 16,
               color: `#555555`,
@@ -68,7 +68,7 @@ const Layout = ({ location, title, children }) => {
             {` `}
             <a href="https:www.netlify.com" target="_blank" rel='noopener noreferrer'>Netlify</a> {` `}
             and 🧡 in lovely Copenhagen.
-          </footer>
+          </footer>}
         </div>
       </div>
   );
