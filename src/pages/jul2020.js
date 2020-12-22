@@ -3,8 +3,6 @@ import ChristmasLayout from '../components/ChristmasLayout';
 import SEO from '../components/SEO';
 import Snow from '../components/Snow';
 
-import './../styles/jul.css';
-
 export default function({ location }) {
   const [showSnow, setShowSnow] = useState(true);
 
