@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React from 'react';
 import { Link } from 'gatsby';
 import { Colors, Gradients } from '../constants/Colors';
 
@@ -20,7 +20,7 @@ const Layout = ({ location, title, children, hidefooter }) => {
             boxShadow: `none`,
             color: `inherit`,
           }}
-          to={`/blog`}
+          to="/blog"
         >
           {title}
         </Link>
@@ -42,19 +42,20 @@ const Layout = ({ location, title, children, hidefooter }) => {
           width: '8px',
           minWidth: '8px',
         }}
-      ></div>
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `50px 1.0875rem 1.45rem`,
-            position: "relative",
-            left: "-4px"
-          }}
-        >
-          <header>{header}</header>
-          <main>{children}</main>
-          {!hidefooter && <footer
+       />
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `50px 1.0875rem 1.45rem`,
+          position: 'relative',
+          left: '-4px',
+        }}
+      >
+        <header>{header}</header>
+        <main>{children}</main>
+        {!hidefooter && (
+          <footer
             style={{
               fontSize: 16,
               color: `#555555`,
@@ -64,13 +65,17 @@ const Layout = ({ location, title, children, hidefooter }) => {
             {` `}
             <a href='https://www.gatsbyjs.org' target='_blank' rel='noopener noreferrer'>
               Gatsby
-            </a>,
+            </a>
+            ,{` `}
+            <a href='https:www.netlify.com' target='_blank' rel='noopener noreferrer'>
+              Netlify
+            </a>{' '}
             {` `}
-            <a href="https:www.netlify.com" target="_blank" rel='noopener noreferrer'>Netlify</a> {` `}
             and 🧡 in lovely Copenhagen.
-          </footer>}
-        </div>
+          </footer>
+        )}
       </div>
+    </div>
   );
 };
 

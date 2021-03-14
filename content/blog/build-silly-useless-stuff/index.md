@@ -8,9 +8,8 @@ Here’s some advice: Don’t take everything so seriously— so high stakes.
 
 Mikkel Malberg recently wrote:
 
-    I wish I could code. Well, how do you think anyone ever learnt anything? They put in some time. And, if you’re really serious about that wish, this is the only way to do it. But I don’t have the time! you say and you are wrong.
-
-    What you don’t have is either the motivation or a clear enough idea of how to start. — Mikkel Malmberg
+> I wish I could code. Well, how do you think anyone ever learnt anything? They put in some time. And, if you’re really serious about that wish, this is the only way to do it. But I don’t have the time! you say and you are wrong.
+> What you don’t have is either the motivation or a clear enough idea of how to start. — Mikkel Malmberg
 
 When I’m learning something new, I need to be actually building something, but more than that — I need it to spark curiosity and passion.
 
@@ -26,19 +25,20 @@ Or the most recent side-project: noa.kitchen, a tiny service to get today’s lu
 
 I’m thinking of turning it into a CLI:
 
-```
-$ npm install -g noa kitchen
+```zsh
+npm install -g noa kitchen
 ```
 
 To get today’s lunch:
 
-```
-$ lunch
+```zsh
+lunch
 ```
 To get the whole week:
+```zsh
+lunch --week
 ```
-$ lunch — week
-```
+
 Who would ever use this? Probably nobody. Is it necessary? No. Is it silly? Yes.
 
 Does it sound fun to build? Absolutely! I found something called Ink which is like React for CLI apps and I want to try it.

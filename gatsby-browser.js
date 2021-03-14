@@ -5,10 +5,12 @@
  */
 
 // You can delete this file if you're not using it
-import "./src/styles/global.css"
 
 import "typeface-inter";
 import "typeface-montserrat";
 import "typeface-merriweather";
 
-import "prismjs/themes/prism.css";
+import "gatsby-prismjs-dracula";
+// import "prismjs/plugins/command-line/prism-command-line.css";
+
+import "./src/styles/global.css"
