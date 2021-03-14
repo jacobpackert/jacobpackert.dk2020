@@ -25,19 +25,20 @@ Or the most recent side-project: noa.kitchen, a tiny service to get today’s lu
 
 I’m thinking of turning it into a CLI:
 
-```
-$ npm install -g noa kitchen
+```zsh
+npm install -g noa kitchen
 ```
 
 To get today’s lunch:
 
-```
-$ lunch
+```zsh
+lunch
 ```
 To get the whole week:
+```zsh
+lunch --week
 ```
-$ lunch — week
-```
+
 Who would ever use this? Probably nobody. Is it necessary? No. Is it silly? Yes.
 
 Does it sound fun to build? Absolutely! I found something called Ink which is like React for CLI apps and I want to try it.

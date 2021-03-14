@@ -5,12 +5,12 @@ module.exports = {
     author: {
       name: `Jacob Packert`,
       summary: `I write about the Internet, tech, code and design.`,
-      title: `Frontend Engineer & Senior Technical Advisor at Hello Great Works`
+      title: `Frontend Engineer & Senior Technical Advisor at Hello Great Works`,
     },
     siteUrl: `https://jacobpackert.netlify.app/`,
     social: {
       twitter: `jacobpackert`,
-      github: `jacobpackert`
+      github: `jacobpackert`,
     },
   },
   plugins: [
@@ -52,9 +52,25 @@ module.exports = {
               wrapperStyle: `margin-bottom: 1.0725rem`,
             },
           },
-          `gatsby-remark-prismjs`,
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              aliases: {
+                'zsh': 'bash'
+              },
+              prompt: {
+                global: true
+              }
+            },
+          },
           `gatsby-remark-copy-linked-files`,
           `gatsby-remark-smartypants`,
+          // {
+          //   resolve: `gatsby-remark-highlight-code`,
+          //   options: {
+          //     terminal: 'carbon'
+          //   }
+          // },
         ],
       },
     },
@@ -80,7 +96,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-image`
-    }
+      resolve: `gatsby-plugin-image`,
+    },
   ],
-}
+};
