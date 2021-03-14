@@ -7,8 +7,7 @@
 
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
-import { Link } from 'gatsby';
+import { GatsbyImage } from "gatsby-plugin-image";
 
 import { rhythm } from '../utils/typography';
 
@@ -38,7 +37,7 @@ const Bio = ({ short }) => {
     }
   `);
 
-  const { author, social } = data.site.siteMetadata;
+  const { author } = data.site.siteMetadata;
   return (
     <div
       style={{
@@ -47,7 +46,7 @@ const Bio = ({ short }) => {
       }}
     >
       <a href='https://jacobpackert.dk' target='_blank' rel='noopener noreferrer' style={{ boxShadow: 'none' }}>
-        <Image
+        <GatsbyImage
           fixed={data.avatar.childImageSharp.fixed}
           alt={author.name}
           style={{

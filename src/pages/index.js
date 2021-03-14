@@ -4,10 +4,14 @@ import Layout from '../components/Layout';
 import SEO from '../components/SEO';
 import Contact from '../components/Contact';
 
+const textStyle = {
+  fontSize: "1.2rem",
+}
+
 const Index = ({location}) => (
   <Layout location={location}>
     <SEO title='Jacob Packert' />
-    <h1>Hi! I'm Jacob 👋</h1>
+    <h1>Hi! I’m Jacob 👋</h1>
     <section className='intro'>
       <p style={textStyle}>I like the Internet, tech, music and code.</p>
       <p style={textStyle}>
@@ -32,7 +36,7 @@ const Index = ({location}) => (
 
       <p style={textStyle}>Now I write code for a living and build products and websites. For work and for fun.</p>
       <p style={textStyle}>
-        I love Javascript and React ⚛️ and I’m building a few apps with React Native and Expo 📱 For data science and Raspberry Pi fun I'm
+        I love Javascript and React ⚛️ and I’m building a few apps with React Native and Expo 📱 For data science and Raspberry Pi fun I’m
         learning Python 🐍.
       </p>
     </section>
@@ -41,7 +45,3 @@ const Index = ({location}) => (
 );
 
 export default Index;
-
-const textStyle = {
-  fontSize: "1.2rem",
-}
