@@ -8,9 +8,8 @@ Here’s some advice: Don’t take everything so seriously— so high stakes.
 
 Mikkel Malberg recently wrote:
 
-    I wish I could code. Well, how do you think anyone ever learnt anything? They put in some time. And, if you’re really serious about that wish, this is the only way to do it. But I don’t have the time! you say and you are wrong.
-
-    What you don’t have is either the motivation or a clear enough idea of how to start. — Mikkel Malmberg
+> I wish I could code. Well, how do you think anyone ever learnt anything? They put in some time. And, if you’re really serious about that wish, this is the only way to do it. But I don’t have the time! you say and you are wrong.
+> What you don’t have is either the motivation or a clear enough idea of how to start. — Mikkel Malmberg
 
 When I’m learning something new, I need to be actually building something, but more than that — I need it to spark curiosity and passion.
 
