@@ -1,11 +1,10 @@
 import React from 'react';
-import { Link } from 'gatsby';
-import './../styles/jul.css';
+import "../styles/jul.css";
 
 
 const CHRISTMAS_GRADIENT = `linear-gradient(180deg, #FF4444 1%, #FF5555 10%, #FF6666 50%, #FF7777 90%, #FF6666 95%, #FF5555 100%)`
 
-export default function ChristmasLayout ({ location, title, children, hidefooter }) {
+export default function ChristmasLayout ({ children }) {
   let header;
 
   return (
