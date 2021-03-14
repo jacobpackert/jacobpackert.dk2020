@@ -1,7 +1,17 @@
 import React from 'react';
+import {StaticImage} from "gatsby-plugin-image"
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import './../styles/mb.css';
+import "../styles/mb.css";
+
+const textStyle = {
+  fontSize: '1.2rem',
+};
+const italicTextStyle = {
+  fontSize: '1.2rem',
+  fontStyle: 'italic',
+};
+
 
 const Index = ({ location }) => (
   <Layout location={location} hidefooter>
@@ -11,7 +21,7 @@ const Index = ({ location }) => (
       Oplev det farverige persiske køkken i selskab med den kogebogsaktuelle Mehran Zandian. Lær at tilberede alt fra små delikate ”mazzeh”
       til kejserlige juvelris med aromatisk lamme-kebab, iranske pickles, auberginedip og meget mere.
     </h3>
-    <img src='https://meyers.dk/media/10121/meyers_persisk_mehran_zandian.jpg?anchor=center&mode=crop&quality=80&width=1000&rnd=132164018790000000' />
+    <StaticImage alt="" src='https://meyers.dk/media/10121/meyers_persisk_mehran_zandian.jpg?anchor=center&mode=crop&quality=80&width=1000&rnd=132164018790000000' />
     <ul>
       <li>18 deltagere</li>
       <li>5 timer </li>
@@ -47,7 +57,7 @@ const Index = ({ location }) => (
     </p>
     <p style={textStyle}>
       Søde sager skal der til, f.eks. ”toot”, som er morbærformet marcipankonfekt med rosenvand og pistacienødder, der hører det persiske
-      nytår til, og "Bastani akbar mashti" der er en safranis med orkiderod og rosenvand.
+      nytår til, og ”Bastani akbar mashti” der er en safranis med orkiderod og rosenvand.
     </p>
     <p style={textStyle}>Bemærk: Menuen vil variere med sæsonen og Mehrans inspiration.</p>
     <h3>Hvad får du?</h3>
@@ -71,11 +81,3 @@ const Index = ({ location }) => (
 );
 
 export default Index;
-
-const textStyle = {
-  fontSize: '1.2rem',
-};
-const italicTextStyle = {
-  fontSize: '1.2rem',
-  fontStyle: 'italic',
-};
