@@ -7,9 +7,7 @@
 
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import Image from 'gatsby-image';
 import { GatsbyImage } from "gatsby-plugin-image";
-import { Link } from 'gatsby';
 
 import { rhythm } from '../utils/typography';
 
