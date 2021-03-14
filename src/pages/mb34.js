@@ -2,7 +2,6 @@ import React from 'react';
 import {StaticImage} from "gatsby-plugin-image"
 import Layout from '../components/Layout';
 import SEO from '../components/SEO';
-import "../styles/mb.css";
 
 const textStyle = {
   fontSize: '1.2rem',
