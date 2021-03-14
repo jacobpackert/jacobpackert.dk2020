@@ -521,6 +521,8 @@ html {
   }
   li {
     margin-bottom: calc(1.45rem / 2);
+    font-size: 0.9rem;
+    line-height: 1.1rem;
   }
   ol li {
     padding-left: 0;

@@ -1,5 +1,4 @@
 import React from 'react';
-import "../styles/jul.css";
 
 
 const CHRISTMAS_GRADIENT = `linear-gradient(180deg, #FF4444 1%, #FF5555 10%, #FF6666 50%, #FF7777 90%, #FF6666 95%, #FF5555 100%)`
