@@ -1,6 +1,9 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import Toggle from "react-toggle";
+import { ThemeToggler } from "gatsby-plugin-dark-mode";
 import { Colors, Gradients } from '../constants/Colors';
+
 
 const Layout = ({ location, title, children, hidefooter }) => {
   let header;
@@ -9,22 +12,33 @@ const Layout = ({ location, title, children, hidefooter }) => {
 
   if (isBlogSection) {
     header = (
-      <h3
-        style={{
-          fontFamily: `Montserrat, sans-serif`,
-          marginTop: 0,
-        }}
-      >
-        <Link
+      <>
+        <h3
           style={{
-            boxShadow: `none`,
-            color: `inherit`,
+            fontFamily: `Montserrat, sans-serif`,
+            marginTop: 0,
           }}
-          to="/blog"
-        >
-          {title}
-        </Link>
-      </h3>
+          >
+          <Link
+            style={{
+              boxShadow: `none`,
+              color: `inherit`,
+            }}
+            to='/blog'
+          >
+            {title}
+          </Link>
+        </h3>
+        <ThemeToggler>
+        {({ theme, toggleTheme }) => (
+          <Toggle
+            checked={theme === 'dark'}
+            onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')} 
+          />
+        )}
+      </ThemeToggler>
+        
+      </>
     );
   }
 
@@ -42,7 +56,7 @@ const Layout = ({ location, title, children, hidefooter }) => {
           width: '8px',
           minWidth: '8px',
         }}
-       />
+      />
       <div
         style={{
           margin: `0 auto`,
@@ -52,7 +66,7 @@ const Layout = ({ location, title, children, hidefooter }) => {
           left: '-4px',
         }}
       >
-        <header>{header}</header>
+        {isBlogSection && <header style={{ display: 'flex', justifyContent: 'space-between' }}>{header}</header>}
         <main>{children}</main>
         {!hidefooter && (
           <footer

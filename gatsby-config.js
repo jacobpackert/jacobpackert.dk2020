@@ -5,7 +5,7 @@ module.exports = {
     author: {
       name: `Jacob Packert`,
       summary: `I write about the Internet, tech, code and design.`,
-      title: `Frontend Engineer & Senior Technical Advisor at Hello Great Works`,
+      title: `Senior Frontend Engineer at DR, the Danish Broadcasting Corporation.`,
     },
     siteUrl: `https://jacobpackert.netlify.app/`,
     social: {
@@ -75,6 +75,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-plugin-dark-mode`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-feed`,
     {
