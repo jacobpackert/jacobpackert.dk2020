@@ -12,3 +12,17 @@
   --primary-black: hsla(0, 0%, 8%, 0.8);
   --background-gradient: linear-gradient(180deg, var(--cornhusk) 40%, var(--peach-quartz) 80%, var(--peach-quartz-dark) 100%);
 }
+
+body {
+  --link-color: var(--classic-blue);
+  --link-color-hover: var(--classic-blue-bright);
+  --text-color: var(--primary-black);
+  --body-background: var(--peach-quartz-dark);
+}
+
+body.dark {
+  --link-color: var(--peach-quartz-dark);
+  --link-color-hover: var(--peach-quartz);
+  --text-color: var(--bright-white);
+  --body-background: var(--classic-blue-dark);
+}

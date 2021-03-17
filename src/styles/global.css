@@ -45,13 +45,13 @@ a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
   text-decoration: none;
-  color: var(--classic-blue);
+  color: var(--link-color);
   transition: color 300ms;
 }
 a:active,
 a:hover {
   outline-width: 0;
-  color: var(--classic-blue-bright);
+  color: var(--link-color-hover);
   transition: color 300ms;
 }
 abbr[title] {
@@ -205,8 +205,8 @@ html {
 }
 body {
   /* height: 100%; */
-  color: var(--primary-black);
-  background: var(--peach-quartz-dark);
+  color: var(--text-color);
+  background: var(--body-background);
   font-family: Inter, sans-serif;
   font-weight: 500;
   word-wrap: break-word;

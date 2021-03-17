@@ -15,3 +15,11 @@ export const Colors = {
 export const Gradients = {
     BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
 }
+
+export const LightTheme = {
+    BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
+}
+
+export const DarkTheme = {
+
+}

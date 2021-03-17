@@ -2,10 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Toggle from "react-toggle";
 import { ThemeToggler } from "gatsby-plugin-dark-mode";
-import { Colors, Gradients } from '../constants/Colors';
+import { Colors, Gradients, LightTheme, DarkTheme } from '../constants/Colors';
 
-
-const Layout = ({ location, title, children, hidefooter }) => {
+function Layout ({ location, title, children, hidefooter }) {
   let header;
 
   const isBlogSection = location?.pathname.includes('blog');
