@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'gatsby';
-import Toggle from "react-toggle";
-import { ThemeToggler } from "gatsby-plugin-dark-mode";
-import { Colors, Gradients, LightTheme, DarkTheme } from '../constants/Colors';
+import Toggle from 'react-toggle';
+import { ThemeToggler } from 'gatsby-plugin-dark-mode';
+import { Colors, LightTheme } from '../constants/Colors';
 
-function Layout ({ location, title, children, hidefooter }) {
+function Layout({ location, title, children, hidefooter }) {
   let header;
 
   const isBlogSection = location?.pathname.includes('blog');
@@ -17,7 +17,7 @@ function Layout ({ location, title, children, hidefooter }) {
             fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
-          >
+        >
           <Link
             style={{
               boxShadow: `none`,
@@ -29,14 +29,13 @@ function Layout ({ location, title, children, hidefooter }) {
           </Link>
         </h3>
         <ThemeToggler>
-        {({ theme, toggleTheme }) => (
-          <Toggle
-            checked={theme === 'dark'}
-            onChange={e => toggleTheme(e.target.checked ? 'dark' : 'light')} 
-          />
-        )}
-      </ThemeToggler>
-        
+          {({ theme, toggleTheme }) => (
+            <Toggle
+              checked={theme === 'dark'}
+              onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
+            />
+          )}
+        </ThemeToggler>
       </>
     );
   }
@@ -44,14 +43,14 @@ function Layout ({ location, title, children, hidefooter }) {
   return (
     <div
       style={{
-        background: isBlogSection ? Colors.BRIGHT_WHITE : Gradients.BACKGROUND_GRADIENT,
+        background: isBlogSection ? LightTheme.BACKGROUND_SOLID : LightTheme.BACKGROUND_GRADIENT,
         display: 'flex',
         minHeight: '100vh',
       }}
     >
       <div
         style={{
-          background: Gradients.BACKGROUND_GRADIENT,
+          background: LightTheme.BACKGROUND_GRADIENT,
           width: '8px',
           minWidth: '8px',
         }}
@@ -65,7 +64,11 @@ function Layout ({ location, title, children, hidefooter }) {
           left: '-4px',
         }}
       >
-        {isBlogSection && <header style={{ display: 'flex', justifyContent: 'space-between' }}>{header}</header>}
+        {isBlogSection && (
+          <header style={{ display: 'flex', justifyContent: 'space-between' }}>
+            {header}
+          </header>
+        )}
         <main>{children}</main>
         {!hidefooter && (
           <footer
@@ -90,6 +93,6 @@ function Layout ({ location, title, children, hidefooter }) {
       </div>
     </div>
   );
-};
+}
 
 export default Layout;

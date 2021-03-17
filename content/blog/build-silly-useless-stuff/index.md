@@ -1,7 +1,7 @@
 ---
 title: Want to Learn Something New? Build Silly, Useless Stuff
-date: "2020-01-12"
-description: "You’ll be more motivated to learn if you’re building something a little silly"
+date: '2020-01-12'
+description: 'You’ll be more motivated to learn if you’re building something a little silly'
 ---
 
 Here’s some advice: Don’t take everything so seriously— so high stakes.
@@ -19,7 +19,7 @@ Maybe we could spice up tutorials. We don’t need to learn yet another weather 
 
 We need ideas for tiny, silly things you can build your own version of and quickly see results — all while using and learning new technology.
 
-I’ve talked a lot about learning to code. But nobody actually looks at my code. Well, my colleagues might when they help fix my bugs in code reviews, but that’s another story. They look at the (stupid) thing I made. The Random Crossfit* WOD Generator, where you click a button and get a workout. It’s not unique, but it works and I’ve used it while training with friends.
+I’ve talked a lot about learning to code. But nobody actually looks at my code. Well, my colleagues might when they help fix my bugs in code reviews, but that’s another story. They look at the (stupid) thing I made. The Random Crossfit\* WOD Generator, where you click a button and get a workout. It’s not unique, but it works and I’ve used it while training with friends.
 
 Or the most recent side-project: noa.kitchen, a tiny service to get today’s lunch menu at work in a fun way — responding to the fact that the most visited place on any corporate intranet is the food section.
 
@@ -34,7 +34,9 @@ To get today’s lunch:
 ```zsh
 lunch
 ```
+
 To get the whole week:
+
 ```zsh
 lunch --week
 ```

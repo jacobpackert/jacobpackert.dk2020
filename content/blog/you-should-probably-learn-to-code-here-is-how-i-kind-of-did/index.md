@@ -1,20 +1,20 @@
 ---
 title: You should probably learn to code. Here is how I (kind of) did.
-date: "2017-04-08"
-description: "Learning to code has been the best investment, I’ve made in myself."
+date: '2017-04-08'
+description: 'Learning to code has been the best investment, I’ve made in myself.'
 ---
 
 I started out with Codecademy to learn basic syntax. The last couple of years I’ve been using Codeschool.com, which offers far more advanced material and gives you a deeper understanding for solving problems with code.
 
 Codeschool consists of short videos, that introduce concepts and functions in a specific programming language, followed by challenges where you write all the code necessary to solve the specific problem. It can be difficult, but it’s fun and very educational. Even for a guy like me with no programming background at all.
 
-- - -
+---
 
 I wouldn’t call myself a programmer. But gaining a knowledge of programming or scripting languages like Javascript, HTML and CSS as well as devtools and databases, makes it much easier to understand the language, the internet is woven of. And this again makes it easier to consult clients on digital opportunities and makes it possible to build digital solutions such as landingpages, basic webapps, chatbots and dynamic bannerads in collaboration with the skilled developers in my company.
 
 I highly recommend it to everyone who want to learn something new: learn to code. Try Codecademy or Codeschool or something else (Treehouse, Lynda, Pluralsight or maybe attend a local codecamp).
 
-- - - 
+---
 
 There are so many ways of working with code that it can be hard finding the ‘right one’ to start. My own journey hasn’t exactly been straightforward:
 
@@ -26,7 +26,7 @@ So yeah — not a very straight path for me. I wish someone would have given me 
 
 My advice would be to start out with HTML/CSS, Javascript or maybe Python. Those are good and relatively easy languages to learn and get results with and very widely supported in the community with great tutorials and lots of people to help.
 
-- - - 
+---
 
 Don’t get discouraged just because it gets hard or it seems overwhelming. The most important thing is just to get going and keep at it.
 
@@ -34,7 +34,7 @@ There is no ‘right’ way of being a developer. Everyone uses Google all the t
 
 Making something just to learn from the process is one of the best ways of learning. And even the best people sometimes just hack stuff together until it works, even though the code could be prettier. Remember, bugs exist in the real world too (even in million dollar companies).
 
-- - -
+---
 
 As I stated, I wouldn’t call myself a programmer. And maybe I shouldn’t be the one to give advice on how to learn programming, since I can only do relatively basic stuff at this point. But I wanted to share my experience and my excitement on learning to code. It gives me so many new opportunities, and knowing how to make computers do stuff for you will continue to be a valuable skill in the future.
 

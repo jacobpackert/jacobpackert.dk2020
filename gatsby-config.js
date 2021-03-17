@@ -56,11 +56,11 @@ module.exports = {
             resolve: `gatsby-remark-prismjs`,
             options: {
               aliases: {
-                'zsh': 'bash'
+                zsh: 'bash',
               },
               prompt: {
-                global: true
-              }
+                global: true,
+              },
             },
           },
           `gatsby-remark-copy-linked-files`,

@@ -1,7 +1,7 @@
 ---
 title: The solution is not always more tech
-date: "2020-03-02"
-description: "Sometimes, technology won’t fix it. We should always focus on the problem, not the tech."
+date: '2020-03-02'
+description: 'Sometimes, technology won’t fix it. We should always focus on the problem, not the tech.'
 ---
 
 ![Coffee](./0*DhlgH5_-e1vlJ66R.jpg)

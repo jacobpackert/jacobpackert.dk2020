@@ -5,10 +5,10 @@ import SEO from '../components/SEO';
 import Contact from '../components/Contact';
 
 const textStyle = {
-  fontSize: "1.2rem",
-}
+  fontSize: '1.2rem',
+};
 
-const Index = ({location}) => (
+const Index = ({ location }) => (
   <Layout location={location}>
     <SEO title='Jacob Packert' />
     <h1>Hi! I’m Jacob 👋</h1>
@@ -32,12 +32,18 @@ const Index = ({location}) => (
         </a>
         .
       </p>
-      <p style={textStyle}>I used to work with politics, then I worked with marketing. Some would say that’s the same thing.</p>
-
-      <p style={textStyle}>Now I write code for a living and build products and websites. For work and for fun.</p>
       <p style={textStyle}>
-        I love Javascript and React ⚛️ and I’m building a few apps with React Native and Expo 📱 For data science and Raspberry Pi fun I’m
-        learning Python 🐍.
+        I used to work with politics, then I worked with marketing. Some would say that’s
+        the same thing.
+      </p>
+
+      <p style={textStyle}>
+        Now I write code for a living and build products and websites. For work and for
+        fun.
+      </p>
+      <p style={textStyle}>
+        I love Javascript and React ⚛️ and I’m building a few apps with React Native and
+        Expo 📱 For data science and Raspberry Pi fun I’m learning Python 🐍.
       </p>
     </section>
     <Contact />

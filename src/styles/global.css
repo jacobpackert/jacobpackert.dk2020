@@ -5,11 +5,6 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 article,
 aside,
 details,
@@ -205,6 +200,7 @@ html {
 }
 body {
   /* height: 100%; */
+  margin: 0;
   color: var(--text-color);
   background: var(--body-background);
   font-family: Inter, sans-serif;
@@ -215,6 +211,8 @@ body {
   -ms-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   -webkit-font-feature-settings: 'kern', 'liga', 'clig', 'calt';
   font-feature-settings: 'kern', 'liga', 'clig', 'calt';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 main {
   margin: 0 auto;
@@ -240,8 +238,8 @@ h1 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 2.4rem;
@@ -257,8 +255,8 @@ h2 {
   padding-top: 0;
   margin-bottom: 1rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: 800;
   text-rendering: optimizeLegibility;
   font-size: 1.62671rem;
@@ -274,8 +272,8 @@ h3 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -291,8 +289,8 @@ h4 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -308,8 +306,8 @@ h5 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -325,8 +323,8 @@ h6 {
   padding-top: 0;
   margin-bottom: 1.45rem;
   color: inherit;
-  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
-    Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Montserrat, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -606,8 +604,8 @@ tt,
 code {
   background-color: hsla(0, 0%, 0%, 0.04);
   border-radius: 3px;
-  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono', Menlo, Courier,
-    monospace;
+  font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono',
+    'Liberation Mono', Menlo, Courier, monospace;
   padding: 0;
   padding-top: 0.2em;
   padding-bottom: 0.2em;
@@ -639,17 +637,19 @@ pre tt:after {
 
 .command-line-prompt > span:before {
   border: none;
-  content: "> ";
-  color: #8BE9FD;
+  content: '> ';
+  color: #8be9fd;
 }
 
 .gatsby-highlight {
   border-radius: 4px;
-  box-shadow: 0 1px 1px rgba(16,27,30,.15),0 2px 2px rgba(16,27,30,.15),0 4px 4px rgba(16,27,30,.15),0 8px 8px rgba(16,27,30,.15),0 16px 16px rgba(16,27,30,.15);
+  box-shadow: 0 1px 1px rgba(16, 27, 30, 0.15), 0 2px 2px rgba(16, 27, 30, 0.15),
+    0 4px 4px rgba(16, 27, 30, 0.15), 0 8px 8px rgba(16, 27, 30, 0.15),
+    0 16px 16px rgba(16, 27, 30, 0.15);
   margin-bottom: 10px;
 }
 
-.gatsby-highlight pre[class*="language-"] {
+.gatsby-highlight pre[class*='language-'] {
   padding: 8px 8px 8px 12px;
 }
 
@@ -670,7 +670,7 @@ pre tt:after {
   -ms-user-select: none;
   user-select: none;
 
-  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -697,7 +697,7 @@ pre tt:after {
   height: 24px;
   padding: 0;
   border-radius: 30px;
-  background-color: #4D4D4D;
+  background-color: #4d4d4d;
   -webkit-transition: all 0.2s ease;
   -moz-transition: all 0.2s ease;
   transition: all 0.2s ease;
@@ -708,11 +708,11 @@ pre tt:after {
 }
 
 .react-toggle--checked .react-toggle-track {
-  background-color: #19AB27;
+  background-color: #19ab27;
 }
 
 .react-toggle--checked:hover:not(.react-toggle--disabled) .react-toggle-track {
-  background-color: #128D15;
+  background-color: #128d15;
 }
 
 .react-toggle-track-check {
@@ -765,9 +765,9 @@ pre tt:after {
   left: 1px;
   width: 22px;
   height: 22px;
-  border: 1px solid #4D4D4D;
+  border: 1px solid #4d4d4d;
   border-radius: 50%;
-  background-color: #FAFAFA;
+  background-color: #fafafa;
 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -780,17 +780,17 @@ pre tt:after {
 
 .react-toggle--checked .react-toggle-thumb {
   left: 27px;
-  border-color: #19AB27;
+  border-color: #19ab27;
 }
 
 .react-toggle--focus .react-toggle-thumb {
-  -webkit-box-shadow: 0px 0px 3px 2px #0099E0;
-  -moz-box-shadow: 0px 0px 3px 2px #0099E0;
-  box-shadow: 0px 0px 2px 3px #0099E0;
+  -webkit-box-shadow: 0px 0px 3px 2px #0099e0;
+  -moz-box-shadow: 0px 0px 3px 2px #0099e0;
+  box-shadow: 0px 0px 2px 3px #0099e0;
 }
 
 .react-toggle:active:not(.react-toggle--disabled) .react-toggle-thumb {
-  -webkit-box-shadow: 0px 0px 5px 5px #0099E0;
-  -moz-box-shadow: 0px 0px 5px 5px #0099E0;
-  box-shadow: 0px 0px 5px 5px #0099E0;
+  -webkit-box-shadow: 0px 0px 5px 5px #0099e0;
+  -moz-box-shadow: 0px 0px 5px 5px #0099e0;
+  box-shadow: 0px 0px 5px 5px #0099e0;
 }

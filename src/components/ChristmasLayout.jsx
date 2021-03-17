@@ -1,9 +1,8 @@
 import React from 'react';
 
+const CHRISTMAS_GRADIENT = `linear-gradient(180deg, #FF4444 1%, #FF5555 10%, #FF6666 50%, #FF7777 90%, #FF6666 95%, #FF5555 100%)`;
 
-const CHRISTMAS_GRADIENT = `linear-gradient(180deg, #FF4444 1%, #FF5555 10%, #FF6666 50%, #FF7777 90%, #FF6666 95%, #FF5555 100%)`
-
-export default function ChristmasLayout ({ children }) {
+export default function ChristmasLayout({ children }) {
   let header;
 
   return (
@@ -14,19 +13,19 @@ export default function ChristmasLayout ({ children }) {
         minHeight: '100vh',
       }}
     >
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `50px 1.0875rem 1.45rem`,
-            position: "relative",
-            left: "-4px",
-            color: "#ffd7d7"
-          }}
-        >
-          <header>{header}</header>
-          <main>{children}</main>
-        </div>
+      <div
+        style={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          padding: `50px 1.0875rem 1.45rem`,
+          position: 'relative',
+          left: '-4px',
+          color: '#ffd7d7',
+        }}
+      >
+        <header>{header}</header>
+        <main>{children}</main>
       </div>
+    </div>
   );
-};
+}

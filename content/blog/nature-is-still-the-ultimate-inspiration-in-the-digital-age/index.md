@@ -1,7 +1,7 @@
 ---
 title: Nature is still the ultimate inspiration in the digital age
-date: "2019-11-12"
-description: "Let’s be more inspired by nature. Climate change is a global factor we must respond to. Nature holds more answers than we think. And maybe we need to operate on a totally different timescale."
+date: '2019-11-12'
+description: 'Let’s be more inspired by nature. Climate change is a global factor we must respond to. Nature holds more answers than we think. And maybe we need to operate on a totally different timescale.'
 ---
 
 I came across the trend of forest bathing earlier in the year. Put simple it is the realisation that spending time in the woods is good for your mind and your body. I would go even further and say that spending time in nature is also good for our craft and can lead to new ideas and solutions.

@@ -1,7 +1,7 @@
 ---
 title: Why bicycling in Copenhagen is so fantastic
-date: "2013-09-04"
-description: "On the virtues of Copenhagen’s favorite mode of transportation"
+date: '2013-09-04'
+description: 'On the virtues of Copenhagen’s favorite mode of transportation'
 ---
 
 There are few greater feelings of freedom and of joy than to cycle the streets of Copenhagen.
@@ -25,7 +25,6 @@ Clearly a bicycle has environmental and urban advantages to, say, a car or a tig
 I’m not opposed to public transportation, and I was extremely pleased with being able to get around the city by bus, when I suffered from a sports injury 18 months ago, rendering me unable to bike and forcing me to go around on crutches. And I still use the bus for longer trips, sometimes when it’s cold or rainy (which can be often here in Scandinavia), and when I need to transport stuff.
 
 Still, there is nothing like getting on the bike and knowing, that wherever you need to go, however your day turns out and what you want to do later on, whenever you want to get from one point to another, you can go by bike, and there is an easy, practical, environmentally friendly and, might I add, rather stylish way of getting around your town.
-
 
 City planners around the world need to embrace this fact. Danish architect Jan Gehl has shared with the world the philosophy of ‘Cities for Humans’. The idea that urban planning should be done not with cars but with people in mind. This means no huge multi-lane-streets should be scarring their way through an area, because that makes the area simply uninhabitable by human beings. You can’t hang out by a highway. Instead, we should try to embrace smaller streets with less — and slower! — traffic, wider pedestrian lanes and dedicated bike lanes. Making cities walkable and bikeable should be on top of the agenda of urban planners of our generation. Humans aren’t built for traveling side-by-side with cars and trucks going 50 mph. We need traffic in a more human scale.
 

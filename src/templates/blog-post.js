@@ -13,7 +13,10 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
 
   return (
     <Layout location={location} title={siteTitle}>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description || post.excerpt} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description || post.excerpt}
+      />
       <article>
         <header>
           <h1
@@ -24,13 +27,15 @@ const BlogPostTemplate = ({ data, pageContext, location }) => {
           >
             {post.frontmatter.title}
           </h1>
-          <h2 style={{
+          <h2
+            style={{
               ...scale(2 / 5),
               display: `block`,
               marginBottom: rhythm(1),
-              color: "#444444"
-            }}>
-              {post.frontmatter.description}
+              color: '#444444',
+            }}
+          >
+            {post.frontmatter.description}
           </h2>
           <p
             style={{

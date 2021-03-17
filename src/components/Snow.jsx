@@ -1,5 +1,5 @@
 import React from 'react';
-import "../styles/components/snow.css";
+import '../styles/components/snow.css';
 
 export default function Snow() {
   return (

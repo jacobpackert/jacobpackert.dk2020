@@ -10,7 +10,12 @@
   --light-gray: #eeeeee;
   --bright-white: #f5f5f5;
   --primary-black: hsla(0, 0%, 8%, 0.8);
-  --background-gradient: linear-gradient(180deg, var(--cornhusk) 40%, var(--peach-quartz) 80%, var(--peach-quartz-dark) 100%);
+  --background-gradient: linear-gradient(
+    180deg,
+    var(--cornhusk) 40%,
+    var(--peach-quartz) 80%,
+    var(--peach-quartz-dark) 100%
+  );
 }
 
 body {
