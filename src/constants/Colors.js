@@ -12,12 +12,13 @@ export const Colors = {
   PRIMARY_BLACK: 'hsla(0, 0 % , 8 % , 0.8)',
 };
 
-export const LightTheme = {
-  BACKGROUND_SOLID: Colors.BRIGHT_WHITE,
-  BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
-};
-
-export const DarkTheme = {
+export const Theme = {
+  dark: {
     BACKGROUND_SOLID: Colors.CLASSIC_BLUE_DARK,
-BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
+    BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
+  },
+  light: {
+    BACKGROUND_SOLID: Colors.BRIGHT_WHITE,
+    BACKGROUND_GRADIENT: `linear-gradient(180deg, ${Colors.CORNHUSK} 40%, ${Colors.PEACH_QUARTZ} 80%, ${Colors.PEACH_QUARTZ_DARK} 100%)`,
+  },
 };

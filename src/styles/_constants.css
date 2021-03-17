@@ -10,12 +10,20 @@
   --light-gray: #eeeeee;
   --bright-white: #f5f5f5;
   --primary-black: hsla(0, 0%, 8%, 0.8);
-  --background-gradient: linear-gradient(
+  --peach-gradient: linear-gradient(
     180deg,
     var(--cornhusk) 40%,
     var(--peach-quartz) 80%,
     var(--peach-quartz-dark) 100%
   );
+  --blue-gradient: linear-gradient(
+    180deg,
+    var(--peach-quartz) 5%,
+    var(--peach-quartz-dark) 10%,
+    var(--classic-blue) 15%,
+    var(--classic-blue-dark) 50%,
+    var(--primary-black) 100%
+  )
 }
 
 body {
@@ -23,6 +31,8 @@ body {
   --link-color-hover: var(--classic-blue-bright);
   --text-color: var(--primary-black);
   --body-background: var(--peach-quartz-dark);
+  --background-blog-section: var(--bright-white);
+  --background-gradient: var(--peach-gradient);
 }
 
 body.dark {
@@ -30,4 +40,6 @@ body.dark {
   --link-color-hover: var(--peach-quartz);
   --text-color: var(--bright-white);
   --body-background: var(--classic-blue-dark);
+  --background-blog-section: var(--primary-black);
+  --background-gradient: var(--blue-gradient);
 }

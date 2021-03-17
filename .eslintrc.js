@@ -20,6 +20,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
+    'no-underscore-dangle': 0,
     'react/jsx-filename-extension': 0,
     'react/prop-types': 0,
   },

@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'gatsby';
+import classnames from "classnames"
 import Toggle from 'react-toggle';
 import { ThemeToggler } from 'gatsby-plugin-dark-mode';
-import { Colors, LightTheme } from '../constants/Colors';
+import '../styles/components/layout.css';
 
 function Layout({ location, title, children, hidefooter }) {
   let header;
@@ -32,7 +33,10 @@ function Layout({ location, title, children, hidefooter }) {
           {({ theme, toggleTheme }) => (
             <Toggle
               checked={theme === 'dark'}
-              onChange={(e) => toggleTheme(e.target.checked ? 'dark' : 'light')}
+              onChange={(e) => {
+                const selectedTheme = e.target.checked ? 'dark' : 'light';
+                toggleTheme(selectedTheme);
+              }}
             />
           )}
         </ThemeToggler>
@@ -41,20 +45,8 @@ function Layout({ location, title, children, hidefooter }) {
   }
 
   return (
-    <div
-      style={{
-        background: isBlogSection ? LightTheme.BACKGROUND_SOLID : LightTheme.BACKGROUND_GRADIENT,
-        display: 'flex',
-        minHeight: '100vh',
-      }}
-    >
-      <div
-        style={{
-          background: LightTheme.BACKGROUND_GRADIENT,
-          width: '8px',
-          minWidth: '8px',
-        }}
-      />
+    <div className={classnames('background', isBlogSection ? 'background--blog-section' : 'background--gradient')}>
+      <div className='gradient' />
       <div
         style={{
           margin: `0 auto`,
@@ -64,11 +56,7 @@ function Layout({ location, title, children, hidefooter }) {
           left: '-4px',
         }}
       >
-        {isBlogSection && (
-          <header style={{ display: 'flex', justifyContent: 'space-between' }}>
-            {header}
-          </header>
-        )}
+        {isBlogSection && <header style={{ display: 'flex', justifyContent: 'space-between' }}>{header}</header>}
         <main>{children}</main>
         {!hidefooter && (
           <footer
