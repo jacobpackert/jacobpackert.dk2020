@@ -14,7 +14,7 @@ export default function Contact() {
       <div className='contact__items'>
         <ContactItem large>Phone: (+45) 28 14 72 96</ContactItem>
         <ContactItem large>
-          Email: <a href='mailto:jacobpackert@hey.com'> jacobpackert@hey.com</a>
+          Email: <a href='mailto:jacobpackert@gmail.com'> jacobpackert@gmail.com</a>
         </ContactItem>
       </div>
       <div className='contact__items'>
