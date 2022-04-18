@@ -5,7 +5,7 @@ module.exports = {
     author: {
       name: `Jacob Packert`,
       summary: `I write about the Internet, tech, code and design.`,
-      title: `Frontend Engineer & Senior Technical Advisor at Hello Great Works`,
+      title: `Lead Engineer at DR, The Danish Broadcasting Corporation`,
     },
     siteUrl: `https://jacobpackert.netlify.app/`,
     social: {
@@ -83,8 +83,8 @@ module.exports = {
         name: `gatsby-starter-default`,
         short_name: `starter`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#df9d76`,
+        theme_color: `#df9d76`,
         display: `minimal-ui`,
         icon: `src/images/male-technologist_1f468-200d-1f4bb.png`, // This path is relative to the root of the site.
       },
