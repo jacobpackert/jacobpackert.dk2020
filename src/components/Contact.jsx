@@ -19,8 +19,8 @@ export default function Contact() {
       </div>
       <div className='contact__items'>
         <ContactItem>
-          <a href='https://twitter.com/@jacobpackert' target='_blank' rel='noopener noreferrer'>
-            Twitter
+          <a href='https://mastodon.social/@jacobpackert' target='_blank' rel='noopener noreferrer'>
+            Mastodon
           </a>
         </ContactItem>
         <ContactItem>
